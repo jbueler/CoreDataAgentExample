@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ExampleCoreDataAgent.h"
 
 @interface ViewController : UIViewController
+@property (nonatomic, strong) ExampleCoreDataAgent *coreDataAgent;
+
+@property (strong, nonatomic) IBOutlet UILabel *peopleCountLabel;
+@property (strong, nonatomic) IBOutlet UILabel *eventsCountLabel;
 
 @end

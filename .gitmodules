@@ -1,0 +1,3 @@
+[submodule "CoreDataAgentExample/vendor/JBCoreDataAgent"]
+	path = CoreDataAgentExample/vendor/JBCoreDataAgent
+	url = git@github.com:jbueler/JBCoreDataAgent.git

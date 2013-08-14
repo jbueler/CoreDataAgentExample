@@ -18,6 +18,14 @@
 		3FB9D39517BB304D002A31F3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB9D39417BB304D002A31F3 /* Default-568h@2x.png */; };
 		3FB9D39817BB304D002A31F3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB9D39617BB304D002A31F3 /* MainStoryboard.storyboard */; };
 		3FB9D39B17BB304D002A31F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9D39A17BB304D002A31F3 /* ViewController.m */; };
+		3FB9D3A817BB30A9002A31F3 /* JBCoreDataAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9D3A417BB30A9002A31F3 /* JBCoreDataAgent.m */; };
+		3FB9D3AC17BB30E5002A31F3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB9D3AB17BB30E5002A31F3 /* CoreData.framework */; };
+		3FB9D3AF17BB30FF002A31F3 /* ExampleDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9D3AD17BB30FF002A31F3 /* ExampleDataModel.xcdatamodeld */; };
+		3FB9D3B217BB315D002A31F3 /* ExampleCoreDataAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9D3B117BB315D002A31F3 /* ExampleCoreDataAgent.m */; };
+		3FB9D3B517BB32E3002A31F3 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9D3B417BB32E3002A31F3 /* Person.m */; };
+		3FB9D3B817BB32E4002A31F3 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9D3B717BB32E4002A31F3 /* Event.m */; };
+		3FB9D3BD17BB525A002A31F3 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9D3BC17BB525A002A31F3 /* ListViewController.m */; };
+		3FB9D3C017BB5AF9002A31F3 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9D3BF17BB5AF9002A31F3 /* AddViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +45,20 @@
 		3FB9D39717BB304D002A31F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		3FB9D39917BB304D002A31F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3FB9D39A17BB304D002A31F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3FB9D3A317BB30A9002A31F3 /* JBCoreDataAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBCoreDataAgent.h; sourceTree = "<group>"; };
+		3FB9D3A417BB30A9002A31F3 /* JBCoreDataAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBCoreDataAgent.m; sourceTree = "<group>"; };
+		3FB9D3AB17BB30E5002A31F3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3FB9D3AE17BB30FF002A31F3 /* ExampleDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExampleDataModel.xcdatamodel; sourceTree = "<group>"; };
+		3FB9D3B017BB315D002A31F3 /* ExampleCoreDataAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExampleCoreDataAgent.h; path = CoreDataAgentExample/ExampleCoreDataAgent.h; sourceTree = SOURCE_ROOT; };
+		3FB9D3B117BB315D002A31F3 /* ExampleCoreDataAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExampleCoreDataAgent.m; path = CoreDataAgentExample/ExampleCoreDataAgent.m; sourceTree = SOURCE_ROOT; };
+		3FB9D3B317BB32E3002A31F3 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		3FB9D3B417BB32E3002A31F3 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		3FB9D3B617BB32E4002A31F3 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		3FB9D3B717BB32E4002A31F3 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		3FB9D3BB17BB525A002A31F3 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		3FB9D3BC17BB525A002A31F3 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		3FB9D3BE17BB5AF9002A31F3 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		3FB9D3BF17BB5AF9002A31F3 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FB9D3AC17BB30E5002A31F3 /* CoreData.framework in Frameworks */,
 				3FB9D37F17BB304D002A31F3 /* UIKit.framework in Frameworks */,
 				3FB9D38117BB304D002A31F3 /* Foundation.framework in Frameworks */,
 				3FB9D38317BB304D002A31F3 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +79,7 @@
 		3FB9D37217BB304D002A31F3 = {
 			isa = PBXGroup;
 			children = (
+				3FB9D3A117BB30A9002A31F3 /* JBCoreDataAgent */,
 				3FB9D38417BB304D002A31F3 /* CoreDataAgentExample */,
 				3FB9D37D17BB304D002A31F3 /* Frameworks */,
 				3FB9D37C17BB304D002A31F3 /* Products */,
@@ -73,6 +97,7 @@
 		3FB9D37D17BB304D002A31F3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3FB9D3AB17BB30E5002A31F3 /* CoreData.framework */,
 				3FB9D37E17BB304D002A31F3 /* UIKit.framework */,
 				3FB9D38017BB304D002A31F3 /* Foundation.framework */,
 				3FB9D38217BB304D002A31F3 /* CoreGraphics.framework */,
@@ -83,11 +108,13 @@
 		3FB9D38417BB304D002A31F3 /* CoreDataAgentExample */ = {
 			isa = PBXGroup;
 			children = (
+				3FB9D3BA17BB3814002A31F3 /* View Controllers */,
+				3FB9D3B917BB32F9002A31F3 /* Models */,
+				3FB9D39617BB304D002A31F3 /* MainStoryboard.storyboard */,
+				3FB9D3B017BB315D002A31F3 /* ExampleCoreDataAgent.h */,
+				3FB9D3B117BB315D002A31F3 /* ExampleCoreDataAgent.m */,
 				3FB9D38D17BB304D002A31F3 /* AppDelegate.h */,
 				3FB9D38E17BB304D002A31F3 /* AppDelegate.m */,
-				3FB9D39617BB304D002A31F3 /* MainStoryboard.storyboard */,
-				3FB9D39917BB304D002A31F3 /* ViewController.h */,
-				3FB9D39A17BB304D002A31F3 /* ViewController.m */,
 				3FB9D38517BB304D002A31F3 /* Supporting Files */,
 			);
 			path = CoreDataAgentExample;
@@ -105,6 +132,41 @@
 				3FB9D39417BB304D002A31F3 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FB9D3A117BB30A9002A31F3 /* JBCoreDataAgent */ = {
+			isa = PBXGroup;
+			children = (
+				3FB9D3A317BB30A9002A31F3 /* JBCoreDataAgent.h */,
+				3FB9D3A417BB30A9002A31F3 /* JBCoreDataAgent.m */,
+			);
+			name = JBCoreDataAgent;
+			path = CoreDataAgentExample/vendor/JBCoreDataAgent;
+			sourceTree = "<group>";
+		};
+		3FB9D3B917BB32F9002A31F3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3FB9D3AD17BB30FF002A31F3 /* ExampleDataModel.xcdatamodeld */,
+				3FB9D3B617BB32E4002A31F3 /* Event.h */,
+				3FB9D3B717BB32E4002A31F3 /* Event.m */,
+				3FB9D3B317BB32E3002A31F3 /* Person.h */,
+				3FB9D3B417BB32E3002A31F3 /* Person.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		3FB9D3BA17BB3814002A31F3 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3FB9D3BB17BB525A002A31F3 /* ListViewController.h */,
+				3FB9D3BC17BB525A002A31F3 /* ListViewController.m */,
+				3FB9D39917BB304D002A31F3 /* ViewController.h */,
+				3FB9D39A17BB304D002A31F3 /* ViewController.m */,
+				3FB9D3BE17BB5AF9002A31F3 /* AddViewController.h */,
+				3FB9D3BF17BB5AF9002A31F3 /* AddViewController.m */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +238,13 @@
 				3FB9D38B17BB304D002A31F3 /* main.m in Sources */,
 				3FB9D38F17BB304D002A31F3 /* AppDelegate.m in Sources */,
 				3FB9D39B17BB304D002A31F3 /* ViewController.m in Sources */,
+				3FB9D3A817BB30A9002A31F3 /* JBCoreDataAgent.m in Sources */,
+				3FB9D3AF17BB30FF002A31F3 /* ExampleDataModel.xcdatamodeld in Sources */,
+				3FB9D3B217BB315D002A31F3 /* ExampleCoreDataAgent.m in Sources */,
+				3FB9D3B517BB32E3002A31F3 /* Person.m in Sources */,
+				3FB9D3B817BB32E4002A31F3 /* Event.m in Sources */,
+				3FB9D3BD17BB525A002A31F3 /* ListViewController.m in Sources */,
+				3FB9D3C017BB5AF9002A31F3 /* AddViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +369,20 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3FB9D3AD17BB30FF002A31F3 /* ExampleDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3FB9D3AE17BB30FF002A31F3 /* ExampleDataModel.xcdatamodel */,
+			);
+			currentVersion = 3FB9D3AE17BB30FF002A31F3 /* ExampleDataModel.xcdatamodel */;
+			name = ExampleDataModel.xcdatamodeld;
+			path = ../ExampleDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3FB9D37317BB304D002A31F3 /* Project object */;
 }

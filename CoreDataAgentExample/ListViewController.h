@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ListViewController.h
 //  CoreDataAgentExample
 //
 //  Created by Jeremy Bueler on 8/13/13.
@@ -9,9 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "ExampleCoreDataAgent.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface ListViewController : UITableViewController
+@property (strong, nonatomic) NSString *entityName;
 @property (strong, nonatomic) ExampleCoreDataAgent *coreDataAgent;
 
 @end

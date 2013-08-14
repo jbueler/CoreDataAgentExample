@@ -7,12 +7,19 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @implementation AppDelegate
+@synthesize coreDataAgent = _coreDataAgent;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+	_coreDataAgent = [[ExampleCoreDataAgent alloc] initWithStoreName:@"ExampleDataModel"];
+	UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
+
+	ViewController *vc = (ViewController *) [navigationController topViewController];
+	[vc setCoreDataAgent: _coreDataAgent];
     return YES;
 }
 							
